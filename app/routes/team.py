@@ -79,6 +79,8 @@ async def send_notification(
         dict: A dictionary containing the status of the notification.
     """
     try:
+        if request.team_member_email == '' or request.action == '':
+            raise HTTPException(status_code=400, detail=" Missing Team member email or action")
         await notify_manager(manager['email'], request.team_member_email, request.action)
         return {"status": "success", "message": "Notification sent"}
     except HTTPException as e:
