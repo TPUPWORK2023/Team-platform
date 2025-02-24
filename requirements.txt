@@ -1,0 +1,10 @@
+fastapi
+firebase-admin
+google-cloud-storage
+mangum
+pydantic
+python-dotenv
+sendgrid
+stripe
+uvicorn
+boto3

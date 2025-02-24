@@ -1,0 +1,48 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment
+.venv/
+venv/
+
+# Ignore IDE/editor-related files
+.vscode/
+*.swp
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.tmp
+*.temp
+
+# Ignore coverage reports
+coverage/
+.coverage
+htmlcov/
+
+# Ignore database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Ignore local development environment files
+.env
+
+# Ignore backup files
+*.bak
+*~
+*.swn
+*.swo
+
+# Ignore system files
+.directory
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+#json files
+*.json
+
+.DS_Store
